@@ -1,0 +1,942 @@
+                    * {
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: border-box;
+                        text-decoration: none;
+                        list-style: none;
+                    }
+                    
+                    .navbar {
+                        background: white;
+                    }
+                    
+                    .home {
+                        background-image: url(Beautiful-Nature-gdragon612-41374063-1600-1200.jpg);
+                        width: 100%;
+                        max-width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        height: 80vh;
+                        background-size: cover;
+                        background-attachment: fixed;
+                        background-position: bottom;
+                        background-repeat: no-repeat;
+                        justify-content: center;
+                        animation: fadeInTop 1s ease-in-out;
+                    }
+                    
+                    @keyframes fadeInTop {
+                        from {
+                            opacity: 0;
+                            transform: translatez(-300px);
+                        }
+                        to {
+                            opacity: 1;
+                        }
+                    }
+                    
+                    .fade-left {
+                        font-size: 35px;
+                        animation: fadeInLeft 1s ease-in-out;
+                        color: wheat;
+                    }
+                    
+                    @keyframes fadeInLeft {
+                        from {
+                            opacity: 0;
+                            transform: translatex(-300px);
+                        }
+                        to {
+                            opacity: 1;
+                        }
+                    }
+                    
+                    @keyframes fadeInRight {
+                        from {
+                            opacity: 0;
+                            transform: translateX(300px);
+                        }
+                        to {
+                            opacity: 1;
+                        }
+                    }
+                    
+                    .fade-right {
+                        font-size: 25px;
+                        animation: fadeInRight 1s ease-in-out;
+                        color: wheat;
+                    }
+                    
+                    .cv {
+                        width: 130px;
+                        border-radius: 2rem;
+                        max-width: 100%;
+                        background-color: black;
+                        text-decoration: none;
+                        color: white;
+                        text-align: center;
+                        height: 5vh;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 50px;
+                        animation: fadeInTop 1.3s ease-in-out;
+                    }
+                    
+                    .about {
+                        width: 100%;
+                        max-width: 100%;
+                        height: 80vh;
+                        display: flex;
+                    }
+                    
+                    .container-about {
+                        height: 65vh;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        margin: auto;
+                        width: 60%;
+                        animation: fadeInLeft 1s ease-in-out;
+                        max-width: 100%;
+                    }
+                    
+                    .about-img {
+                        width: 390px;
+                        height: 55vh;
+                        max-width: 100%;
+                        margin-left: 20px;
+                    }
+                    
+                    .about-title {
+                        font-size: 23px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 60px;
+                        color: rgb(224, 243, 250);
+                        width: 340px;
+                        text-align: center;
+                        max-width: 100%;
+                    }
+                    
+                    .about-text {
+                        font-size: 16px;
+                        margin-top: 40px;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: center;
+                        width: 340px;
+                        max-width: 100%;
+                    }
+                    
+                    .about-href {
+                        max-width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    
+                    .about-btn {
+                        width: 180px;
+                        border-radius: 2rem;
+                        max-width: 100%;
+                        background: #ffc107;
+                        text-decoration: none;
+                        color: black;
+                        height: 5vh;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 40px;
+                        font-weight: 500;
+                    }
+                    
+                    .profile {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 100%;
+                        max-width: 100%;
+                        height: auto;
+                        animation: fadeInTop 1.3s ease-in-out;
+                    }
+                    
+                    .profile-about-heading {
+                        text-align: center;
+                    }
+                    
+                    .profile-text {
+                        font-size: 20px;
+                    }
+                    
+                    .profile-img {
+                        width: 200px;
+                        border-radius: 60%;
+                        margin-top: 60px;
+                    }
+                    
+                    .name {
+                        margin-top: 20px;
+                    }
+                    
+                    .text-name {
+                        font-weight: 350;
+                    }
+                    
+                    .text-umur {
+                        font-weight: 350;
+                    }
+                    
+                    .text-lokasi {
+                        font-weight: 350;
+                    }
+                    
+                    .text-pengalaman {
+                        font-weight: 350;
+                    }
+                    
+                    .skills {
+                        width: 100%;
+                        max-width: 100%;
+                        height: 100vh;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    
+                    .skills-title {
+                        font-size: 30px;
+                        font-weight: 500;
+                        animation: fadeInTop 1s ease-in-out
+                    }
+                    
+                    .skills-bar {
+                        padding: 25px 30px;
+                        margin-top: 20px;
+                        background-color: white;
+                        max-width: 100%;
+                        width: 70%;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    .skills-bar .bar {
+                        margin: 25px 0;
+                    }
+                    
+                    .skills-bar .bar .info span {
+                        font-size: 1rem;
+                        font-weight: 500;
+                    }
+                    
+                    .skills-bar .bar .info {
+                        margin-top: 5px;
+                        color: #07374a;
+                    }
+                    
+                    .skills-bar .bar .progress-line {
+                        position: relative;
+                        height: 10px;
+                        width: 550px;
+                        background: #f0f0f0;
+                        border-radius: 10px;
+                        transform: scaleX(0);
+                        transform-origin: left;
+                        animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+                    }
+                    
+                    .bar .progress-line span {
+                        position: absolute;
+                        background: #25b79f;
+                        height: 100%;
+                        border-radius: 10px;
+                        transform: scaleX(0);
+                        transform-origin: left;
+                        animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+                    }
+                    
+                    @keyframes animate {
+                        100% {
+                            transform: scaleX(1);
+                        }
+                    }
+                    
+                    .progress-line .html {
+                        width: 80%;
+                    }
+                    
+                    .progress-line .css {
+                        width: 70%;
+                    }
+                    
+                    .progress-line .bootstrap {
+                        width: 75%;
+                    }
+                    
+                    .progress-line .javascript {
+                        width: 45%;
+                    }
+                    
+                    .progress-line .d {
+                        width: 75%;
+                    }
+                    
+                    .bar .progress-line span::before {
+                        position: absolute;
+                        content: "";
+                        height: 0;
+                        right: 0;
+                        top: -14px;
+                        width: 0;
+                        border: 7px solid transparent;
+                        border-bottom-width: 0px;
+                        border-right-width: 0px;
+                        border-top-style: #f0f0f0;
+                        border-top-color: #07374a;
+                    }
+                    
+                    .bar .progress-line span::after {
+                        position: absolute;
+                        right: 0;
+                        top: -28px;
+                        color: #f0f0f0;
+                        font-size: 12px;
+                        font-weight: 700;
+                        background: #07374a;
+                        padding: 1px 8px;
+                        border-radius: 3px;
+                    }
+                    
+                    .progress-line .html::after {
+                        content: "80%";
+                    }
+                    
+                    .progress-line .css::after {
+                        content: "70%";
+                    }
+                    
+                    .progress-line .bootstrap::after {
+                        content: "75%";
+                    }
+                    
+                    .progress-line .javascript::after {
+                        content: "45%";
+                    }
+                    
+                    .progress-line .d::after {
+                        content: "75%";
+                    }
+                    
+                    .service {
+                        width: 100%;
+                        max-width: 100%;
+                        height: 90vh;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-position: center;
+                    }
+                    
+                    .container-service {
+                        display: flex;
+                        width: 100%;
+                        align-items: flex-end;
+                        justify-content: center;
+                        height: 90vh;
+                    }
+                    
+                    .row-service {
+                        display: flex;
+                        width: 100%;
+                        margin-bottom: 20px;
+                        justify-content: space-around;
+                    }
+                    
+                    .col-3.web {
+                        width: 300px;
+                        flex-direction: column;
+                        display: flex;
+                        height: 300px;
+                        align-items: center;
+                    }
+                    
+                    .col-3.data {
+                        width: 300px;
+                        display: flex;
+                        height: 300px;
+                        align-items: center;
+                        flex-direction: column
+                    }
+                    
+                    .col-3.admin {
+                        width: 300px;
+                        display: flex;
+                        height: 300px;
+                        align-items: center;
+                        flex-direction: column
+                    }
+                    
+                    .col-3.cust {
+                        width: 300px;
+                        display: flex;
+                        height: 300px;
+                        align-items: center;
+                        flex-direction: column;
+                    }
+                    
+                    .img-web {
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 10px;
+                        border-radius: 60%
+                    }
+                    
+                    .img-data {
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 10px;
+                        border-radius: 60%
+                    }
+                    
+                    .img-admin {
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 10px;
+                        border-radius: 60%
+                    }
+                    
+                    .img-cust {
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 10px;
+                        border-radius: 60%
+                    }
+                    
+                    .web-title {
+                        font-size: 18px;
+                        color: black;
+                        width: 250px;
+                        text-align: left;
+                        margin-top: 15px;
+                    }
+                    
+                    .web-text {
+                        font-size: 15px;
+                        color: black;
+                        width: 250px;
+                        text-align: left;
+                        margin-top: 15px;
+                    }
+                    
+                    .form-container {
+                        width: 100%;
+                        height: auto;
+                        background-color: #ffc107;
+                        margin-top: 50px;
+                    }
+                    
+                    form {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        justify-content: center;
+                        align-items: center;
+                        height: auto;
+                        max-width: 100%;
+                    }
+                    
+                    center {
+                        height: auto;
+                    }
+                    
+                    label {
+                        line-height: 2.5;
+                        width: 50%;
+                        font-size: 15px;
+                        text-align: left;
+                    }
+                    
+                    .form-title {
+                        font-size: 25px;
+                        color: black;
+                        width: 50%;
+                        text-align: center;
+                        margin-top: 20px;
+                    }
+                    
+                    input {
+                        max-width: 100%;
+                        width: 50%;
+                    }
+                    
+                    select {
+                        width: 50%;
+                        height: 30px;
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                    
+                    .submit {
+                        width: 100px;
+                    }
+                    
+                    @media (max-width:1300px) {
+                        .about-img {
+                            width: 300px;
+                            max-width: 100%;
+                        }
+                        .col-3.web {
+                            width: 250px;
+                            height: 250px;
+                        }
+                        .col-3.admin {
+                            width: 250px;
+                            height: 250px;
+                        }
+                        .col-3.data {
+                            width: 250px;
+                            height: 250px;
+                        }
+                        .col-3.cust {
+                            width: 250px;
+                            height: 250px;
+                        }
+                        .img-web {
+                            width: 80px;
+                            height: 80px;
+                        }
+                        .web-title {
+                            font-size: 17px;
+                            margin-left: 20px;
+                        }
+                        .web-text {
+                            font-size: 12px;
+                            margin-left: 20px;
+                        }
+                    }
+                    
+                    @media (max-width: 1200px) {
+                        .about-img {
+                            width: 250px;
+                            height: 350px
+                        }
+                        .profile-about-heading {
+                            font-size: 20px;
+                        }
+                        .profile-about-text {
+                            font-size: 13px;
+                        }
+                    }
+                    
+                    @media(max-width: 1050px) {
+                        .service {
+                            height: 500px;
+                        }
+                        .container-service {
+                            height: 500px;
+                        }
+                        .col-3.web {
+                            width: 190px;
+                            height: 200px;
+                        }
+                        .col-3.admin {
+                            width: 190px;
+                            height: 200px;
+                        }
+                        .col-3.data {
+                            width: 190px;
+                            height: 200px;
+                        }
+                        .col-3.cust {
+                            width: 190px;
+                            height: 200px;
+                        }
+                        .img-web {
+                            width: 60px;
+                            height: 60px;
+                        }
+                        .web-title {
+                            font-size: 14px;
+                            width: 180px;
+                            margin-left: 1px;
+                            margin-bottom: 5px;
+                        }
+                        .web-text {
+                            font-size: 12px;
+                            width: 180px;
+                            margin-left: 1px;
+                            margin-top: 2px;
+                        }
+                    }
+                    
+                    @media (max-width:980px) {
+                        .profile-about-heading {
+                            width: 300px;
+                            margin-left: -80px;
+                        }
+                        .profile-about-text {
+                            width: 300px;
+                            margin-left: -80px;
+                        }
+                        .about-title {
+                            margin-left: 20px;
+                        }
+                        .about-text {
+                            margin-left: 20px;
+                        }
+                        .about-btn {
+                            margin-left: 60px;
+                        }
+                        .detail {
+                            font-size: 20px;
+                        }
+                    }
+                    
+                    @media(max-width:900px) {
+                        .about {
+                            height: 500px;
+                        }
+                        .container-about {
+                            width: 500px;
+                            height: 350px;
+                        }
+                        .about-title {
+                            font-size: 18px;
+                        }
+                        .about-text {
+                            font-size: 14px;
+                        }
+                        .about-img {
+                            width: 200px;
+                            height: 300px;
+                        }
+                    }
+                    
+                    @media (max-width:860px) {
+                        .profile-about-text {
+                            width: 250px;
+                            margin-left: -15px;
+                        }
+                        section.skills {
+                            height: 90vh;
+                        }
+                        .skills-bar {
+                            width: 600px;
+                        }
+                        .about-btn {
+                            height: 25px;
+                        }
+                        .skills {
+                            height: 60vh;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 801px) {
+                        .fade-left {
+                            font-size: 30px;
+                        }
+                        .fade-right {
+                            font-size: 20px;
+                        }
+                        .service {
+                            width: 100%;
+                            height: 125vh;
+                        }
+                        .container-service {
+                            height: 125vh;
+                        }
+                        .row-service {
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: CENTER;
+                            display: flex;
+                            height: 118vh;
+                        }
+                        .col-3.web {
+                            width: 270px;
+                            height: 200px;
+                        }
+                        .col-3.data {
+                            width: 270px;
+                            height: 200px;
+                        }
+                        .col-3.admin {
+                            width: 270px;
+                            height: 200px;
+                        }
+                        .col-3.cust {
+                            width: 270px;
+                            height: 200px;
+                        }
+                    }
+                    
+                    @media (max-width:770px) and (max-height:1024px) {
+                        .col-4.text {
+                            margin-left: -40px;
+                        }
+                        .row.mt-4 {
+                            width: 100%;
+                        }
+                        .col-4.txt {
+                            margin-top: 50px;
+                            margin-left: 40px;
+                        }
+                        .profile-about-text {
+                            width: 250px;
+                            margin-left: 40px;
+                        }
+                        .profile-about-heading {
+                            margin-left: -15px;
+                        }
+                        img.profile-img {
+                            margin-left: 60px;
+                        }
+                    }
+                    
+                    @media (max-width: 700px) {
+                        .skills {
+                            width: 100%;
+                        }
+                        .skills-bar {
+                            width: 500px;
+                        }
+                        .bar,
+                        .progress-line {
+                            width: 100%;
+                            max-width: 100%;
+                            height: auto;
+                        }
+                        .profile {
+                            width: 100%;
+                        }
+                    }
+                    
+                    @media (max-width:660px) {
+                        .fade-left {
+                            font-size: 25px;
+                        }
+                        .fade-right {
+                            font-size: 17px;
+                        }
+                        img.about-img {
+                            width: 180px;
+                            height: 250px;
+                        }
+                        div.about-title,
+                        .about-text,
+                        a.about-btn {
+                            margin-top: 35px;
+                        }
+                        .row.mt-4 {
+                            display: FLEX;
+                            flex-direction: column;
+                            align-items: center;
+                            width: 100%;
+                        }
+                        h4.profile-text {
+                            font-size: 18px;
+                        }
+                        h4.profile-about-heading {
+                            width: 200px;
+                            text-align: left;
+                            margin-left: -170px;
+                        }
+                        img.profile-img {
+                            margin-top: 40px;
+                            width: 250px;
+                            height: 250px;
+                            margin-left: -20px;
+                        }
+                        div.col-4.txt {
+                            width: 300px;
+                            margin-left: -250px;
+                        }
+                        h6.text-lokasi {
+                            width: 250px;
+                        }
+                        div.row.row.align-items-start {
+                            width: 640px;
+                        }
+                        img.tokoku {
+                            width: 200px;
+                            margin-left: -25px;
+                        }
+                        .profile-about-text {
+                            width: 500px;
+                            margin-left: -168px;
+                        }
+                    }
+                    
+                    @media (max-width:600px) {
+                        div.col-4 {
+                            width: 90%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        h6.text-lokasi {
+                            margin-left: 70px;
+                        }
+                        div.col-4.txt {
+                            width: 400px;
+                            margin-left: 5px;
+                        }
+                        h6.profile-about-text {
+                            width: 450px;
+                            margin-left: 80px;
+                        }
+                        div.social-media {
+                            margin-top: 20px;
+                        }
+                        img.profile-img {
+                            margin-left: 20px;
+                        }
+                    }
+                    
+                    @media (max-width:550px) {
+                        .container-about {
+                            width: 80%;
+                            height: 60%;
+                        }
+                        div.about-title {
+                            font-size: 15px;
+                            margin-top: 25px;
+                        }
+                        div.about-text {
+                            font-size: 10px;
+                        }
+                        img.about-img {
+                            width: 80%;
+                            height: 100%;
+                            margin-left: 8px;
+                        }
+                        a.about-btn {
+                            font-size: 12px;
+                        }
+                        .skills-bar {
+                            width: 400px;
+                        }
+                    }
+                    
+                    @media (max-width:480px) {
+                        h4.fade-right {
+                            font-size: 14px;
+                        }
+                        h4.profile-about-heading {
+                            margin-left: -25px;
+                        }
+                        h6.profile-about-text {
+                            width: 300px;
+                        }
+                        div.row-service {
+                            height: 100vh;
+                        }
+                        .service {
+                            height: 135vh;
+                        }
+                        a.about-btn {
+                            font-size: 11px;
+                        }
+                        .skills-bar {
+                            width: 350px;
+                        }
+                    }
+                    
+                    @media (max-width:400px) {
+                        h1 {
+                            font-size: 22px;
+                        }
+                        .about {
+                            height: 50vh;
+                        }
+                        img.about-img {
+                            width: 100px;
+                            height: 150px;
+                        }
+                        div.about-title {
+                            font-size: 10px;
+                            margin-left: 35px;
+                        }
+                        div.about-text {
+                            font-size: 8px;
+                            margin-left: 50px;
+                            width: 150px;
+                        }
+                        div.container-about.bg-dark {
+                            width: 300px;
+                            height: 200px;
+                        }
+                        a.about-btn {
+                            margin-left: 20px;
+                            font-size: 8px;
+                            width: 80px;
+                            margin-top: 20px;
+                        }
+                        h4.fade-right.mt-4 {
+                            font-size: 10px;
+                            width: 300px;
+                            margin-left: 20px;
+                        }
+                        .skills-bar {
+                            width: 320px;
+                        }
+                        div.col-6 {
+                            width: 150px;
+                        }
+                        img.about-img {
+                            margin-top: 1px;
+                            margin-left: 15px;
+                        }
+                        div.about-title {
+                            margin-left: 10px;
+                            width: 130px;
+                        }
+                        div.about-text {
+                            margin-left: 9px;
+                            margin-top: 20px;
+                        }
+                    }
+                    
+                    @media (max-width:350px) {
+                        section.skills {
+                            height: 100vh;
+                        }
+                        h4.profile-about-heading {
+                            margin-left: -30px;
+                        }
+                        h6.profile-about-text {
+                            margin-left: 74px;
+                        }
+                        .skills-bar {
+                            width: 290px;
+                        }
+                        div.skills-title {
+                            font-size: 20px;
+                        }
+                        .form-container {
+                            height: 75vh;
+                        }
+                        h2.fade-left {
+                            font-size: 20px;
+                        }
+                        .container-service {
+                            height: 145vh;
+                        }
+                        section.service {
+                            height: 180vh;
+                        }
+                        form {
+                            height: auto;
+                        }
+                        .form-container {
+                            height: auto;
+                        }
+                    }
+                    /* ////........Media Query........////
